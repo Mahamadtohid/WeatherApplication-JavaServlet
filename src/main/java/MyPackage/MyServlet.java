@@ -48,7 +48,7 @@ public class MyServlet extends HttpServlet {
 		String location = request.getParameter("location");
 //		System.out.println(location);
 		
-		String api = "0c25145d030fbcb190ec0a3efa6f60d0";
+		String api = WEATHER_API_KEY;
 		
 		String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&appid=" + api;
 		
